@@ -1,0 +1,99 @@
+use trabalho01
+
+db.createCollection("project",{
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            required: ["name", "start_date", "tasks"],
+            properties: {
+                name: {
+                    bsonType: "string",
+                    description: "Nome do projeto.",
+                    minLength: 1,
+                    maxLength: 64
+                },
+                start_date: {
+                    bsonType: "string",
+                    description: "Data de início do projeto.",
+                    pattern: "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(19|20)\\d{2}$"
+                },
+                end_date: {
+                    bsonType: "string",
+                    description: "Data de término do projeto.",
+                    pattern: "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(19|20)\\d{2}$"
+                },
+                tasks: {
+                    bsonType: "array",
+                    description: "Lista de tarefas do projeto.",
+                    items: {
+                        bsonType: "object",
+                        required: ["title", "description", "start_date", "deadline_date", "priority", "status", "user"],
+                        properties: {
+                            title: {
+                                bsonType: "string",
+                                description: "Título da tarefa.",
+                                minLength: 1,
+                                maxLength: 64
+                            },
+                            description: {
+                                bsonType: "string",
+                                description: "Descrição da tarefa.",
+                                minLength: 1,
+                                maxLength: 512
+                            },
+                            start_date: {
+                                bsonType: "string",
+                                description: "Data de início da tarefa no formato 'DD/MM/YYYY'.",
+                                pattern: "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(19|20)\\d{2}$"
+                            },
+                            deadline_date: {
+                                bsonType: "string",
+                                description: "Data de prazo da tarefa no formato 'DD/MM/YYYY'.",
+                                pattern: "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(19|20)\\d{2}$"
+                            },
+                            priority: {
+                                bsonType: "string",
+                                description: "Prioridade da tarefa.",
+                                enum: ["Low", "Medium", "High"]
+                            },
+                            status: {
+                                bsonType: "string",
+                                description: "Status da tarefa.",
+                                enum: ["Todo", "In Progress", "Complete"]
+                            },
+                            user: {
+                                bsonType: "object",
+                                description: "Informações do usuário associado à tarefa.",
+                                required: ["first_name", "last_name", "email", "cell_phone"],
+                                properties: {
+                                    first_name: {
+                                        bsonType: "string",
+                                        description: "Primeiro nome do usuário.",
+                                        minLength: 1,
+                                        maxLength: 64
+                                    },
+                                    last_name: {
+                                        bsonType: "string",
+                                        description: "Sobrenome do usuário.",
+                                        minLength: 1,
+                                        maxLength: 64
+                                    },
+                                    email: {
+                                        bsonType: "string",
+                                        description: "Endereço de e-mail do usuário.",
+                                        pattern: "^\\S+@\\S+\\.\\S+$"
+                                    },
+                                    cell_phone: {
+                                        bsonType: "string",
+                                        description: "Número de celular do usuário no formato brasileiro '(XX) XXXXX-XXXX'.",
+                                        pattern: "^\\(\\d{2}\\)\\s\\d{5}-\\d{4}$"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+});

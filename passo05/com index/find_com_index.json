@@ -1,0 +1,138 @@
+## db.project.stats(); db.stats();db.user.find({first_name: "William").explain("executionStats");db.project.createIndex({"name": 1, "start_date": 1});db.project.find({name: "Project 1", start_date: "2018-01-01"}).explain("executionStats");
+
+
+[
+  {
+    "command": {
+      "find": "project",
+      "filter": {
+        "name": "Project 1",
+        "start_date": "2018-01-01"
+      },
+      "$db": "trabalho01"
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 17,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "stage": "FETCH",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 1,
+        "advanced": 0,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "docsExamined": 0,
+        "alreadyHasObj": 0,
+        "inputStage": {
+          "stage": "IXSCAN",
+          "nReturned": 0,
+          "executionTimeMillisEstimate": 0,
+          "works": 1,
+          "advanced": 0,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "keyPattern": {
+            "name": 1,
+            "start_date": 1
+          },
+          "indexName": "name_1_start_date_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "name": [],
+            "start_date": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "name": ["[\"Project 1\", \"Project 1\"]"],
+            "start_date": ["[\"2018-01-01\", \"2018-01-01\"]"]
+          },
+          "keysExamined": 0,
+          "seeks": 1,
+          "dupsTested": 0,
+          "dupsDropped": 0
+        }
+      }
+    },
+    "explainVersion": "1",
+    "ok": 1,
+    "queryPlanner": {
+      "namespace": "trabalho01.project",
+      "indexFilterSet": false,
+      "parsedQuery": {
+        "$and": [
+          {
+            "name": {
+              "$eq": "Project 1"
+            }
+          },
+          {
+            "start_date": {
+              "$eq": "2018-01-01"
+            }
+          }
+        ]
+      },
+      "queryHash": "309A55B1",
+      "planCacheKey": "582F86FE",
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "winningPlan": {
+        "stage": "FETCH",
+        "inputStage": {
+          "stage": "IXSCAN",
+          "keyPattern": {
+            "name": 1,
+            "start_date": 1
+          },
+          "indexName": "name_1_start_date_1",
+          "isMultiKey": false,
+          "multiKeyPaths": {
+            "name": [],
+            "start_date": []
+          },
+          "isUnique": false,
+          "isSparse": false,
+          "isPartial": false,
+          "indexVersion": 2,
+          "direction": "forward",
+          "indexBounds": {
+            "name": ["[\"Project 1\", \"Project 1\"]"],
+            "start_date": ["[\"2018-01-01\", \"2018-01-01\"]"]
+          }
+        }
+      },
+      "rejectedPlans": []
+    },
+    "serverInfo": {
+      "host": "WIN-S34C10CPCS3",
+      "port": 27017,
+      "version": "6.0.8",
+      "gitVersion": "3d84c0dd4e5d99be0d69003652313e7eaf4cdd74"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600
+    }
+  }
+]

@@ -1,0 +1,142 @@
+db.project.insertMany([
+  {
+    name: "WordPress Theme Development",
+    start_date: "01/04/2024",
+    end_date: "30/04/2024",
+    tasks: [
+      {
+        title: "Design WordPress theme",
+        description: "Create a custom WordPress theme",
+        start_date: "05/04/2024",
+        deadline_date: "15/04/2024",
+        priority: "High",
+        status: "In Progress",
+        user: {
+          first_name: "Emily",
+          last_name: "Jones",
+          email: "emily.jones@example.com",
+          cell_phone: "(11) 98765-7654"
+        }
+      },
+      {
+        title: "Develop custom plugins",
+        description: "Build custom WordPress plugins using PHP",
+        start_date: "10/04/2024",
+        deadline_date: "20/04/2024",
+        priority: "Medium",
+        status: "Todo",
+        user: {
+          first_name: "William",
+          last_name: "Martinez",
+          email: "william.martinez@example.com",
+          cell_phone: "(11) 98765-8765"
+        }
+      }
+    ]
+  },
+  {
+    name: "Unit Testing in WordPress",
+    start_date: "01/05/2024",
+    end_date: "31/05/2024",
+    tasks: [
+      {
+        title: "Write unit tests for plugins",
+        description: "Create unit tests for WordPress plugins",
+        start_date: "05/05/2024",
+        deadline_date: "15/05/2024",
+        priority: "High",
+        status: "Complete",
+        user: {
+          first_name: "Sophia",
+          last_name: "Johnson",
+          email: "sophia.johnson@example.com",
+          cell_phone: "(11) 98765-9876"
+        }
+      },
+      {
+        title: "Perform integration testing",
+        description: "Conduct integration testing for the WordPress site",
+        start_date: "10/05/2024",
+        deadline_date: "20/05/2024",
+        priority: "Medium",
+        status: "In Progress",
+        user: {
+          first_name: "David",
+          last_name: "Garcia",
+          email: "david.garcia@example.com",
+          cell_phone: "(11) 98765-6543"
+        }
+      }
+    ]
+  },
+  {
+    name: "WordPress Site Deployment",
+    start_date: "01/06/2024",
+    end_date: "30/06/2024",
+    tasks: [
+      {
+        title: "Prepare for deployment",
+        description: "Get the WordPress site ready for deployment",
+        start_date: "05/06/2024",
+        deadline_date: "15/06/2024",
+        priority: "High",
+        status: "Todo",
+        user: {
+          first_name: "Ava",
+          last_name: "Davis",
+          email: "ava.davis@example.com",
+          cell_phone: "(11) 98765-5432"
+        }
+      },
+      {
+        title: "Deploy WordPress site to hosting server",
+        description: "Deploy the WordPress site to a hosting server",
+        start_date: "10/06/2024",
+        deadline_date: "20/06/2024",
+        priority: "Medium",
+        status: "Todo",
+        user: {
+          first_name: "Olivia",
+          last_name: "Robinson",
+          email: "olivia.robinson@example.com",
+          cell_phone: "(11) 98765-7654"
+        }
+      }
+    ]
+  },
+  {
+    name: "Object-Oriented WordPress Development",
+    start_date: "01/07/2024",
+    end_date: "31/07/2024",
+    tasks: [
+      {
+        title: "Implement object-oriented design",
+        description: "Apply object-oriented principles to WordPress development",
+        start_date: "05/07/2024",
+        deadline_date: "15/07/2024",
+        priority: "High",
+        status: "In Progress",
+        user: {
+          first_name: "Lucas",
+          last_name: "Brown",
+          email: "lucas.brown@example.com",
+          cell_phone: "(11) 98765-4321"
+        }
+      },
+      {
+        title: "Optimize code for performance",
+        description: "Optimize WordPress code for better performance",
+        start_date: "10/07/2024",
+        deadline_date: "20/07/2024",
+        priority: "Medium",
+        status: "Todo",
+        user: {
+          first_name: "Chloe",
+          last_name: "Clark",
+          email: "chloe.clark@example.com",
+          cell_phone: "(11) 98765-8765"
+        }
+      }
+    ]
+  }
+]);

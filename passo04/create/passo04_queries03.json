@@ -1,0 +1,177 @@
+db.project.insertMany([
+    {
+        name: "Microservices Project 1",
+        start_date: "01/11/2023",
+        end_date: "30/11/2023",
+        tasks: [
+            {
+                title: "Design microservices architecture",
+                description: "Plan the architecture for microservices",
+                start_date: "05/11/2023",
+                deadline_date: "15/11/2023",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Daniel",
+                    last_name: "Smith",
+                    email: "daniel.smith@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            },
+            {
+                title: "Implement microservices endpoints",
+                description: "Develop RESTful endpoints for microservices",
+                start_date: "10/11/2023",
+                deadline_date: "20/11/2023",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Sophia",
+                    last_name: "Anderson",
+                    email: "sophia.anderson@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    },
+    {
+        name: "Spring Boot Application",
+        start_date: "01/12/2023",
+        end_date: "31/12/2023",
+        tasks: [
+            {
+                title: "Create Spring Boot project",
+                description: "Initialize a Spring Boot application",
+                start_date: "05/12/2023",
+                deadline_date: "15/12/2023",
+                priority: "High",
+                status: "Complete",
+                user: {
+                    first_name: "Ella",
+                    last_name: "Johnson",
+                    email: "ella.johnson@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            },
+            {
+                title: "Integrate Lombok and H2",
+                description: "Integrate Lombok for code simplification and H2 for in-memory database",
+                start_date: "10/12/2023",
+                deadline_date: "20/12/2023",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "David",
+                    last_name: "Garcia",
+                    email: "david.garcia@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            }
+        ]
+    },
+    {
+        name: "Microservices Project 2",
+        start_date: "01/01/2024",
+        end_date: "31/01/2024",
+        tasks: [
+            {
+                title: "Implement microservices security",
+                description: "Enhance security for microservices",
+                start_date: "05/01/2024",
+                deadline_date: "15/01/2024",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Aiden",
+                    last_name: "Martinez",
+                    email: "aiden.martinez@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            },
+            {
+                title: "Write microservices documentation",
+                description: "Create documentation for microservices APIs",
+                start_date: "10/01/2024",
+                deadline_date: "20/01/2024",
+                priority: "Medium",
+                status: "Complete",
+                user: {
+                    first_name: "Olivia",
+                    last_name: "Robinson",
+                    email: "olivia.robinson@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            }
+        ]
+    },
+    {
+        name: "Java Application Testing",
+        start_date: "01/02/2024",
+        end_date: "28/02/2024",
+        tasks: [
+            {
+                title: "Write unit tests with JUnit",
+                description: "Create unit tests for Java application components",
+                start_date: "05/02/2024",
+                deadline_date: "15/02/2024",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Lucas",
+                    last_name: "Brown",
+                    email: "lucas.brown@example.com",
+                    cell_phone: "(11) 98765-4321"
+                }
+            },
+            {
+                title: "Perform integration testing",
+                description: "Conduct integration testing for the application",
+                start_date: "10/02/2024",
+                deadline_date: "20/02/2024",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Ava",
+                    last_name: "Davis",
+                    email: "ava.davis@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    },
+    {
+        name: "Microservices Deployment",
+        start_date: "01/03/2024",
+        end_date: "31/03/2024",
+        tasks: [
+            {
+                title: "Prepare for microservices deployment",
+                description: "Get microservices ready for deployment",
+                start_date: "05/03/2024",
+                deadline_date: "15/03/2024",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Mia",
+                    last_name: "White",
+                    email: "mia.white@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            },
+            {
+                title: "Deploy microservices to AWS",
+                description: "Deploy microservices to an AWS environment",
+                start_date: "10/03/2024",
+                deadline_date: "20/03/2024",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "James",
+                    last_name: "Lopez",
+                    email: "james.lopez@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            }
+        ]
+    }
+]);

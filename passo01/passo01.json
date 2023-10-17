@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "name": "Front-end Project 1",
+      "start_date": "2023-01-01 00:00:00",
+      "end_date": "2023-02-28 23:59:59",
+      "tasks": [
+        {
+          "title": "Implement homepage",
+          "description": "Develop the project's homepage",
+          "start_date": "2023-01-05 09:00:00",
+          "deadline_date": "2023-01-15 23:59:59",
+          "priority": "High",
+          "status": "In-progress",
+          "user": {
+            "first_name": "John",
+            "last_name": "Smith",
+            "email": "john.smith@example.com",
+            "cell_phone": "+55 11 98765-4321"
+          }
+        },
+        {
+          "title": "Create interface components",
+          "description": "Develop necessary interface components",
+          "start_date": "2023-01-10 09:00:00",
+          "deadline_date": "2023-01-20 23:59:59",
+          "priority": "Medium",
+          "status": "Todo",
+          "user": {
+            "first_name": "Maria",
+            "last_name": "Santos",
+            "email": "maria.santos@example.com",
+            "cell_phone": "+55 11 98765-5432"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Front-end Project 2",
+      "start_date": "2023-03-01 00:00:00",
+      "end_date": "2023-03-31 23:59:59",
+      "tasks": [
+        {
+          "title": "Implement contact form",
+          "description": "Develop the project's contact form",
+          "start_date": "2023-03-05 09:00:00",
+          "deadline_date": "2023-03-15 23:59:59",
+          "priority": "High",
+          "status": "Complete",
+          "user": {
+            "first_name": "Peter",
+            "last_name": "Fernandez",
+            "email": "peter.fernandez@example.com",
+            "cell_phone": "+55 11 98765-6543"
+          }
+        },
+        {
+          "title": "Implement login page",
+          "description": "Develop the project's login page",
+          "start_date": "2023-03-10 09:00:00",
+          "deadline_date": "2023-03-20 23:59:59",
+          "priority": "Medium",
+          "status": "Todo",
+          "user": {
+            "first_name": "Anna",
+            "last_name": "Oliveira",
+            "email": "anna.oliveira@example.com",
+            "cell_phone": "+55 11 98765-7654"
+          }
+        }
+      ]
+    }
+  ]
+}

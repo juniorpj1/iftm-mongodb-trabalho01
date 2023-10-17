@@ -1,0 +1,64 @@
+[
+  {
+    "command": {
+      "find": "user",
+      "filter": {
+        "first_name": "William"
+      },
+      "$db": "trabalho01"
+    },
+    "executionStats": {
+      "executionSuccess": true,
+      "nReturned": 0,
+      "executionTimeMillis": 0,
+      "totalKeysExamined": 0,
+      "totalDocsExamined": 0,
+      "executionStages": {
+        "stage": "EOF",
+        "nReturned": 0,
+        "executionTimeMillisEstimate": 0,
+        "works": 1,
+        "advanced": 0,
+        "needTime": 0,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1
+      }
+    },
+    "explainVersion": "1",
+    "ok": 1,
+    "queryPlanner": {
+      "namespace": "trabalho01.user",
+      "indexFilterSet": false,
+      "parsedQuery": {
+        "first_name": {
+          "$eq": "William"
+        }
+      },
+      "maxIndexedOrSolutionsReached": false,
+      "maxIndexedAndSolutionsReached": false,
+      "maxScansToExplodeReached": false,
+      "winningPlan": {
+        "stage": "EOF"
+      },
+      "rejectedPlans": []
+    },
+    "serverInfo": {
+      "host": "WIN-S34C10CPCS3",
+      "port": 27017,
+      "version": "6.0.8",
+      "gitVersion": "3d84c0dd4e5d99be0d69003652313e7eaf4cdd74"
+    },
+    "serverParameters": {
+      "internalQueryFacetBufferSizeBytes": 104857600,
+      "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+      "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+      "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+      "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+      "internalQueryProhibitBlockingMergeOnMongoS": 0,
+      "internalQueryMaxAddToSetBytes": 104857600,
+      "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600
+    }
+  }
+]

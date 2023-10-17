@@ -1,0 +1,1 @@
+db.trabalho01.createCollection("project")

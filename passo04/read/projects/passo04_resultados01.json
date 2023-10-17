@@ -1,0 +1,132 @@
+[
+  {
+    "projectName": "Front-end Project 1",
+    "taskDescription": "Develop necessary interface components",
+    "taskTitle": "Create interface components"
+  },
+  {
+    "projectName": "Front-end Project 2",
+    "taskDescription": "Develop the project's login page",
+    "taskTitle": "Implement login page"
+  },
+  {
+    "projectName": "AWS Cloud App",
+    "taskDescription": "Deploy the front-end and back-end to AWS services",
+    "taskTitle": "Deploy application to AWS"
+  },
+  {
+    "projectName": "Database Management",
+    "taskDescription": "Create the database schema for the application",
+    "taskTitle": "Design database schema"
+  },
+  {
+    "projectName": "Database Management",
+    "taskDescription": "Optimize database queries for better performance",
+    "taskTitle": "Optimize database queries"
+  },
+  {
+    "projectName": "Game Project 1",
+    "taskDescription": "Implement the game mechanics in JavaScript",
+    "taskTitle": "Develop game mechanics"
+  },
+  {
+    "projectName": "Game Testing",
+    "taskDescription": "Create unit tests for game components",
+    "taskTitle": "Write unit tests"
+  },
+  {
+    "projectName": "Game Testing",
+    "taskDescription": "Test the game for functionality and performance",
+    "taskTitle": "Perform game testing"
+  },
+  {
+    "projectName": "Microservices Project 1",
+    "taskDescription": "Develop RESTful endpoints for microservices",
+    "taskTitle": "Implement microservices endpoints"
+  },
+  {
+    "projectName": "Microservices Project 2",
+    "taskDescription": "Enhance security for microservices",
+    "taskTitle": "Implement microservices security"
+  },
+  {
+    "projectName": "Java Application Testing",
+    "taskDescription": "Conduct integration testing for the application",
+    "taskTitle": "Perform integration testing"
+  },
+  {
+    "projectName": "Microservices Deployment",
+    "taskDescription": "Get microservices ready for deployment",
+    "taskTitle": "Prepare for microservices deployment"
+  },
+  {
+    "projectName": "WordPress Theme Development",
+    "taskDescription": "Build custom WordPress plugins using PHP",
+    "taskTitle": "Develop custom plugins"
+  },
+  {
+    "projectName": "WordPress Site Deployment",
+    "taskDescription": "Get the WordPress site ready for deployment",
+    "taskTitle": "Prepare for deployment"
+  },
+  {
+    "projectName": "WordPress Site Deployment",
+    "taskDescription": "Deploy the WordPress site to a hosting server",
+    "taskTitle": "Deploy WordPress site to hosting server"
+  },
+  {
+    "projectName": "Object-Oriented WordPress Development",
+    "taskDescription": "Optimize WordPress code for better performance",
+    "taskTitle": "Optimize code for performance"
+  },
+  {
+    "projectName": "AI-Powered Financial Analysis",
+    "taskDescription": "Migrate financial systems to the cloud",
+    "taskTitle": "Cloud Migration"
+  },
+  {
+    "projectName": "DevOps Transformation",
+    "taskDescription": "Set up continuous integration and continuous deployment pipelines",
+    "taskTitle": "Implement CI/CD pipelines"
+  },
+  {
+    "projectName": "Real-Time Financial Data Analytics",
+    "taskDescription": "Create real-time data analytics tools for financial data",
+    "taskTitle": "Develop real-time analytics"
+  },
+  {
+    "projectName": "Cloud-Based Financial Dashboard",
+    "taskDescription": "Create a cloud-based financial dashboard for clients",
+    "taskTitle": "Design cloud-based dashboard"
+  },
+  {
+    "projectName": "Financial Compliance Automation",
+    "taskDescription": "Deploy automated compliance system to the cloud",
+    "taskTitle": "Deploy compliance system"
+  },
+  {
+    "projectName": "Arduino Robot Control",
+    "taskDescription": "Develop Arduino algorithms for robot control",
+    "taskTitle": "Program Arduino algorithms"
+  },
+  {
+    "projectName": "Autonomous Drone Project",
+    "taskDescription": "Write software for autonomous control of the drone",
+    "taskTitle": "Develop drone control software"
+  },
+  {
+    "projectName": "Industrial Automation Project",
+    "taskDescription": "Design an automated system for industrial processes",
+    "taskTitle": "Design automated system"
+  },
+  {
+    "projectName": "Smart Home Automation",
+    "taskDescription": "Create IoT devices for smart home automation",
+    "taskTitle": "Develop IoT devices"
+  },
+  {
+    "projectName": "Automated Agriculture System",
+    "taskDescription": "Create robots for automated agriculture",
+    "taskTitle": "Develop agricultural robots"
+  }
+]

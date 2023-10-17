@@ -1,0 +1,177 @@
+db.project.insertMany([
+    {
+        name: "Arduino Robot Control",
+        start_date: "01/01/2025",
+        end_date: "28/02/2025",
+        tasks: [
+            {
+                title: "Design robot chassis",
+                description: "Create a custom robot chassis for Arduino control",
+                start_date: "05/01/2025",
+                deadline_date: "15/01/2025",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Roberto",
+                    last_name: "Silva",
+                    email: "roberto.silva@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            },
+            {
+                title: "Program Arduino algorithms",
+                description: "Develop Arduino algorithms for robot control",
+                start_date: "10/01/2025",
+                deadline_date: "20/01/2025",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Ana",
+                    last_name: "Santos",
+                    email: "ana.santos@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    },
+    {
+        name: "Autonomous Drone Project",
+        start_date: "01/03/2025",
+        end_date: "31/03/2025",
+        tasks: [
+            {
+                title: "Build drone hardware",
+                description: "Assemble hardware components for an autonomous drone",
+                start_date: "05/03/2025",
+                deadline_date: "15/03/2025",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Carlos",
+                    last_name: "Rodriguez",
+                    email: "carlos.rodriguez@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            },
+            {
+                title: "Develop drone control software",
+                description: "Write software for autonomous control of the drone",
+                start_date: "10/03/2025",
+                deadline_date: "20/03/2025",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Elena",
+                    last_name: "Gomez",
+                    email: "elena.gomez@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            }
+        ]
+    },
+    {
+        name: "Industrial Automation Project",
+        start_date: "01/04/2025",
+        end_date: "30/04/2025",
+        tasks: [
+            {
+                title: "Design automated system",
+                description: "Design an automated system for industrial processes",
+                start_date: "05/04/2025",
+                deadline_date: "15/04/2025",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Martin",
+                    last_name: "Perez",
+                    email: "martin.perez@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            },
+            {
+                title: "Implement automation algorithms",
+                description: "Implement algorithms for industrial process automation",
+                start_date: "10/04/2025",
+                deadline_date: "20/04/2025",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Laura",
+                    last_name: "Torres",
+                    email: "laura.torres@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            }
+        ]
+    },
+    {
+        name: "Smart Home Automation",
+        start_date: "01/05/2025",
+        end_date: "31/05/2025",
+        tasks: [
+            {
+                title: "Develop IoT devices",
+                description: "Create IoT devices for smart home automation",
+                start_date: "05/05/2025",
+                deadline_date: "15/05/2025",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Diego",
+                    last_name: "Martinez",
+                    email: "diego.martinez@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            },
+            {
+                title: "Build automation control app",
+                description: "Build a mobile app for controlling smart home devices",
+                start_date: "10/05/2025",
+                deadline_date: "20/05/2025",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Valentina",
+                    last_name: "Lopez",
+                    email: "valentina.lopez@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            }
+        ]
+    },
+    {
+        name: "Automated Agriculture System",
+        start_date: "01/06/2025",
+        end_date: "30/06/2025",
+        tasks: [
+            {
+                title: "Develop agricultural robots",
+                description: "Create robots for automated agriculture",
+                start_date: "05/06/2025",
+                deadline_date: "15/06/2025",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Isabella",
+                    last_name: "Perez",
+                    email: "isabella.perez@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            },
+            {
+                title: "Optimize farming algorithms",
+                description: "Optimize algorithms for efficient farming automation",
+                start_date: "10/06/2025",
+                deadline_date: "20/06/2025",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Mateo",
+                    last_name: "Garcia",
+                    email: "mateo.garcia@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            }
+        ]
+    }
+]);

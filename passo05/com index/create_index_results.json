@@ -1,0 +1,18 @@
+[
+  {
+    "avgObjSize": 779.8571428571429,
+    "collections": 1,
+    "dataSize": 21836,
+    "db": "trabalho01",
+    "fsTotalSize": 239934107648,
+    "fsUsedSize": 232266870784,
+    "indexSize": 57344,
+    "indexes": 2,
+    "objects": 28,
+    "ok": 1,
+    "scaleFactor": 1,
+    "storageSize": 45056,
+    "totalSize": 102400,
+    "views": 0
+  }
+]

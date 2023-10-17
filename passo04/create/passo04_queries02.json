@@ -1,0 +1,142 @@
+db.project.insertMany([
+    {
+        name: "Game Project 1",
+        start_date: "01/07/2023",
+        end_date: "31/07/2023",
+        tasks: [
+            {
+                title: "Design game concept",
+                description: "Create the concept for the game",
+                start_date: "05/07/2023",
+                deadline_date: "15/07/2023",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Lucas",
+                    last_name: "Miller",
+                    email: "lucas.miller@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            },
+            {
+                title: "Develop game mechanics",
+                description: "Implement the game mechanics in JavaScript",
+                start_date: "10/07/2023",
+                deadline_date: "20/07/2023",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Ava",
+                    last_name: "Robinson",
+                    email: "ava.robinson@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    },
+    {
+        name: "React Game App",
+        start_date: "01/08/2023",
+        end_date: "31/08/2023",
+        tasks: [
+            {
+                title: "Create game UI with React",
+                description: "Design and develop the game's user interface using React",
+                start_date: "05/08/2023",
+                deadline_date: "15/08/2023",
+                priority: "High",
+                status: "Complete",
+                user: {
+                    first_name: "Mia",
+                    last_name: "White",
+                    email: "mia.white@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            },
+            {
+                title: "Implement game logic",
+                description: "Write game logic and functionality in JavaScript",
+                start_date: "10/08/2023",
+                deadline_date: "20/08/2023",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "James",
+                    last_name: "Anderson",
+                    email: "james.anderson@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            }
+        ]
+    },
+    {
+        name: "Game Testing",
+        start_date: "01/09/2023",
+        end_date: "30/09/2023",
+        tasks: [
+            {
+                title: "Write unit tests",
+                description: "Create unit tests for game components",
+                start_date: "05/09/2023",
+                deadline_date: "15/09/2023",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Ethan",
+                    last_name: "Harris",
+                    email: "ethan.harris@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            },
+            {
+                title: "Perform game testing",
+                description: "Test the game for functionality and performance",
+                start_date: "10/09/2023",
+                deadline_date: "20/09/2023",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Sophie",
+                    last_name: "Martinez",
+                    email: "sophie.martinez@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            }
+        ]
+    },
+    {
+        name: "Game Deployment",
+        start_date: "01/10/2023",
+        end_date: "31/10/2023",
+        tasks: [
+            {
+                title: "Prepare for deployment",
+                description: "Get the game ready for deployment",
+                start_date: "05/10/2023",
+                deadline_date: "15/10/2023",
+                priority: "High",
+                status: "Complete",
+                user: {
+                    first_name: "Oliver",
+                    last_name: "Lopez",
+                    email: "oliver.lopez@example.com",
+                    cell_phone: "(11) 98765-4321"
+                }
+            },
+            {
+                title: "Deploy game to hosting platform",
+                description: "Deploy the game to a hosting platform",
+                start_date: "10/10/2023",
+                deadline_date: "20/10/2023",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Chloe",
+                    last_name: "Clark",
+                    email: "chloe.clark@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    }
+]);

@@ -1,0 +1,177 @@
+db.project.insertMany([
+    {
+        name: "AI-Powered Financial Analysis",
+        start_date: "01/08/2024",
+        end_date: "31/08/2024",
+        tasks: [
+            {
+                title: "Develop AI algorithms",
+                description: "Build AI algorithms for financial analysis",
+                start_date: "05/08/2024",
+                deadline_date: "15/08/2024",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Emma",
+                    last_name: "Moore",
+                    email: "emma.moore@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            },
+            {
+                title: "Cloud Migration",
+                description: "Migrate financial systems to the cloud",
+                start_date: "10/08/2024",
+                deadline_date: "20/08/2024",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Liam",
+                    last_name: "Young",
+                    email: "liam.young@example.com",
+                    cell_phone: "(11) 98765-8765"
+                }
+            }
+        ]
+    },
+    {
+        name: "DevOps Transformation",
+        start_date: "01/09/2024",
+        end_date: "30/09/2024",
+        tasks: [
+            {
+                title: "Cultural shift to DevOps",
+                description: "Promote a DevOps culture within the organization",
+                start_date: "05/09/2024",
+                deadline_date: "15/09/2024",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Oliver",
+                    last_name: "Harris",
+                    email: "oliver.harris@example.com",
+                    cell_phone: "(11) 98765-6543"
+                }
+            },
+            {
+                title: "Implement CI/CD pipelines",
+                description: "Set up continuous integration and continuous deployment pipelines",
+                start_date: "10/09/2024",
+                deadline_date: "20/09/2024",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Ava",
+                    last_name: "Parker",
+                    email: "ava.parker@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            }
+        ]
+    },
+    {
+        name: "Real-Time Financial Data Analytics",
+        start_date: "01/10/2024",
+        end_date: "31/10/2024",
+        tasks: [
+            {
+                title: "Develop real-time analytics",
+                description: "Create real-time data analytics tools for financial data",
+                start_date: "05/10/2024",
+                deadline_date: "15/10/2024",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "William",
+                    last_name: "King",
+                    email: "william.king@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            },
+            {
+                title: "Machine Learning Models",
+                description: "Build machine learning models for financial predictions",
+                start_date: "10/10/2024",
+                deadline_date: "20/10/2024",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Sophia",
+                    last_name: "Scott",
+                    email: "sophia.scott@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            }
+        ]
+    },
+    {
+        name: "Cloud-Based Financial Dashboard",
+        start_date: "01/11/2024",
+        end_date: "30/11/2024",
+        tasks: [
+            {
+                title: "Design cloud-based dashboard",
+                description: "Create a cloud-based financial dashboard for clients",
+                start_date: "05/11/2024",
+                deadline_date: "15/11/2024",
+                priority: "High",
+                status: "Todo",
+                user: {
+                    first_name: "Olivia",
+                    last_name: "Lewis",
+                    email: "olivia.lewis@example.com",
+                    cell_phone: "(11) 98765-9876"
+                }
+            },
+            {
+                title: "Implement AI-driven features",
+                description: "Integrate AI-driven features into the financial dashboard",
+                start_date: "10/11/2024",
+                deadline_date: "20/11/2024",
+                priority: "Medium",
+                status: "In Progress",
+                user: {
+                    first_name: "Lucas",
+                    last_name: "Moore",
+                    email: "lucas.moore@example.com",
+                    cell_phone: "(11) 98765-4321"
+                }
+            }
+        ]
+    },
+    {
+        name: "Financial Compliance Automation",
+        start_date: "01/12/2024",
+        end_date: "31/12/2024",
+        tasks: [
+            {
+                title: "Automate compliance checks",
+                description: "Automate financial compliance checks using AI",
+                start_date: "05/12/2024",
+                deadline_date: "15/12/2024",
+                priority: "High",
+                status: "In Progress",
+                user: {
+                    first_name: "Ella",
+                    last_name: "Davis",
+                    email: "ella.davis@example.com",
+                    cell_phone: "(11) 98765-7654"
+                }
+            },
+            {
+                title: "Deploy compliance system",
+                description: "Deploy automated compliance system to the cloud",
+                start_date: "10/12/2024",
+                deadline_date: "20/12/2024",
+                priority: "Medium",
+                status: "Todo",
+                user: {
+                    first_name: "Aiden",
+                    last_name: "Parker",
+                    email: "aiden.parker@example.com",
+                    cell_phone: "(11) 98765-5432"
+                }
+            }
+        ]
+    }
+]);

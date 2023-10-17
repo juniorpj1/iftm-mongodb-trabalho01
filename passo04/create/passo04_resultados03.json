@@ -1,0 +1,506 @@
+[
+  {
+    "_id": {"$oid": "652d6710a2c9945b841494ca"},
+    "end_date": "28/02/2023",
+    "name": "Front-end Project 1",
+    "start_date": "01/01/2023",
+    "tasks": [
+      {
+        "title": "Implement homepage",
+        "description": "Develop the project's homepage",
+        "start_date": "05/01/2023",
+        "deadline_date": "15/01/2023",
+        "priority": "High",
+        "status": "In Progress",
+        "user": {
+          "first_name": "John",
+          "last_name": "Smith",
+          "email": "john.smith@example.com",
+          "cell_phone": "(11) 98765-4321"
+        }
+      },
+      {
+        "title": "Create interface components",
+        "description": "Develop necessary interface components",
+        "start_date": "10/01/2023",
+        "deadline_date": "20/01/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Maria",
+          "last_name": "Santos",
+          "email": "maria.santos@example.com",
+          "cell_phone": "(11) 98765-5432"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6710a2c9945b841494cb"},
+    "end_date": "31/03/2023",
+    "name": "Front-end Project 2",
+    "start_date": "01/03/2023",
+    "tasks": [
+      {
+        "title": "Implement contact form",
+        "description": "Develop the project's contact form",
+        "start_date": "05/03/2023",
+        "deadline_date": "15/03/2023",
+        "priority": "High",
+        "status": "Complete",
+        "user": {
+          "first_name": "Peter",
+          "last_name": "Fernandez",
+          "email": "peter.fernandez@example.com",
+          "cell_phone": "(11) 98765-6543"
+        }
+      },
+      {
+        "title": "Implement login page",
+        "description": "Develop the project's login page",
+        "start_date": "10/03/2023",
+        "deadline_date": "20/03/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Anna",
+          "last_name": "Oliveira",
+          "email": "anna.oliveira@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6710a2c9945b841494cc"},
+    "end_date": "30/04/2023",
+    "name": "AWS Cloud App",
+    "start_date": "01/04/2023",
+    "tasks": [
+      {
+        "title": "Set up AWS infrastructure",
+        "description": "Configure AWS resources for the application",
+        "start_date": "05/04/2023",
+        "deadline_date": "15/04/2023",
+        "priority": "High",
+        "status": "In Progress",
+        "user": {
+          "first_name": "David",
+          "last_name": "Wilson",
+          "email": "david.wilson@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      },
+      {
+        "title": "Deploy application to AWS",
+        "description": "Deploy the front-end and back-end to AWS services",
+        "start_date": "10/04/2023",
+        "deadline_date": "20/04/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Emily",
+          "last_name": "Davis",
+          "email": "emily.davis@example.com",
+          "cell_phone": "(11) 98765-9876"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6710a2c9945b841494cd"},
+    "end_date": "31/05/2023",
+    "name": "DevOps Automation",
+    "start_date": "01/05/2023",
+    "tasks": [
+      {
+        "title": "Implement CI/CD pipeline",
+        "description": "Set up a continuous integration and continuous deployment pipeline",
+        "start_date": "05/05/2023",
+        "deadline_date": "15/05/2023",
+        "priority": "High",
+        "status": "Complete",
+        "user": {
+          "first_name": "Sophia",
+          "last_name": "Johnson",
+          "email": "sophia.johnson@example.com",
+          "cell_phone": "(11) 98765-6543"
+        }
+      },
+      {
+        "title": "Monitor application performance",
+        "description": "Implement monitoring and alerting for application performance",
+        "start_date": "10/05/2023",
+        "deadline_date": "20/05/2023",
+        "priority": "Medium",
+        "status": "In Progress",
+        "user": {
+          "first_name": "Michael",
+          "last_name": "Martinez",
+          "email": "michael.martinez@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6710a2c9945b841494ce"},
+    "end_date": "30/06/2023",
+    "name": "Database Management",
+    "start_date": "01/06/2023",
+    "tasks": [
+      {
+        "title": "Design database schema",
+        "description": "Create the database schema for the application",
+        "start_date": "05/06/2023",
+        "deadline_date": "15/06/2023",
+        "priority": "High",
+        "status": "Todo",
+        "user": {
+          "first_name": "Liam",
+          "last_name": "Brown",
+          "email": "liam.brown@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      },
+      {
+        "title": "Optimize database queries",
+        "description": "Optimize database queries for better performance",
+        "start_date": "10/06/2023",
+        "deadline_date": "20/06/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Olivia",
+          "last_name": "Garcia",
+          "email": "olivia.garcia@example.com",
+          "cell_phone": "(11) 98765-9876"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d69b1a2c9945b841494d0"},
+    "end_date": "31/07/2023",
+    "name": "Game Project 1",
+    "start_date": "01/07/2023",
+    "tasks": [
+      {
+        "title": "Design game concept",
+        "description": "Create the concept for the game",
+        "start_date": "05/07/2023",
+        "deadline_date": "15/07/2023",
+        "priority": "High",
+        "status": "In Progress",
+        "user": {
+          "first_name": "Lucas",
+          "last_name": "Miller",
+          "email": "lucas.miller@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      },
+      {
+        "title": "Develop game mechanics",
+        "description": "Implement the game mechanics in JavaScript",
+        "start_date": "10/07/2023",
+        "deadline_date": "20/07/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Ava",
+          "last_name": "Robinson",
+          "email": "ava.robinson@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d69b1a2c9945b841494d1"},
+    "end_date": "31/08/2023",
+    "name": "React Game App",
+    "start_date": "01/08/2023",
+    "tasks": [
+      {
+        "title": "Create game UI with React",
+        "description": "Design and develop the game's user interface using React",
+        "start_date": "05/08/2023",
+        "deadline_date": "15/08/2023",
+        "priority": "High",
+        "status": "Complete",
+        "user": {
+          "first_name": "Mia",
+          "last_name": "White",
+          "email": "mia.white@example.com",
+          "cell_phone": "(11) 98765-9876"
+        }
+      },
+      {
+        "title": "Implement game logic",
+        "description": "Write game logic and functionality in JavaScript",
+        "start_date": "10/08/2023",
+        "deadline_date": "20/08/2023",
+        "priority": "Medium",
+        "status": "In Progress",
+        "user": {
+          "first_name": "James",
+          "last_name": "Anderson",
+          "email": "james.anderson@example.com",
+          "cell_phone": "(11) 98765-6543"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d69b1a2c9945b841494d2"},
+    "end_date": "30/09/2023",
+    "name": "Game Testing",
+    "start_date": "01/09/2023",
+    "tasks": [
+      {
+        "title": "Write unit tests",
+        "description": "Create unit tests for game components",
+        "start_date": "05/09/2023",
+        "deadline_date": "15/09/2023",
+        "priority": "High",
+        "status": "Todo",
+        "user": {
+          "first_name": "Ethan",
+          "last_name": "Harris",
+          "email": "ethan.harris@example.com",
+          "cell_phone": "(11) 98765-5432"
+        }
+      },
+      {
+        "title": "Perform game testing",
+        "description": "Test the game for functionality and performance",
+        "start_date": "10/09/2023",
+        "deadline_date": "20/09/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Sophie",
+          "last_name": "Martinez",
+          "email": "sophie.martinez@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d69b1a2c9945b841494d3"},
+    "end_date": "31/10/2023",
+    "name": "Game Deployment",
+    "start_date": "01/10/2023",
+    "tasks": [
+      {
+        "title": "Prepare for deployment",
+        "description": "Get the game ready for deployment",
+        "start_date": "05/10/2023",
+        "deadline_date": "15/10/2023",
+        "priority": "High",
+        "status": "Complete",
+        "user": {
+          "first_name": "Oliver",
+          "last_name": "Lopez",
+          "email": "oliver.lopez@example.com",
+          "cell_phone": "(11) 98765-4321"
+        }
+      },
+      {
+        "title": "Deploy game to hosting platform",
+        "description": "Deploy the game to a hosting platform",
+        "start_date": "10/10/2023",
+        "deadline_date": "20/10/2023",
+        "priority": "Medium",
+        "status": "In Progress",
+        "user": {
+          "first_name": "Chloe",
+          "last_name": "Clark",
+          "email": "chloe.clark@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6b47a2c9945b841494d5"},
+    "end_date": "30/11/2023",
+    "name": "Microservices Project 1",
+    "start_date": "01/11/2023",
+    "tasks": [
+      {
+        "title": "Design microservices architecture",
+        "description": "Plan the architecture for microservices",
+        "start_date": "05/11/2023",
+        "deadline_date": "15/11/2023",
+        "priority": "High",
+        "status": "In Progress",
+        "user": {
+          "first_name": "Daniel",
+          "last_name": "Smith",
+          "email": "daniel.smith@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      },
+      {
+        "title": "Implement microservices endpoints",
+        "description": "Develop RESTful endpoints for microservices",
+        "start_date": "10/11/2023",
+        "deadline_date": "20/11/2023",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Sophia",
+          "last_name": "Anderson",
+          "email": "sophia.anderson@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6b47a2c9945b841494d6"},
+    "end_date": "31/12/2023",
+    "name": "Spring Boot Application",
+    "start_date": "01/12/2023",
+    "tasks": [
+      {
+        "title": "Create Spring Boot project",
+        "description": "Initialize a Spring Boot application",
+        "start_date": "05/12/2023",
+        "deadline_date": "15/12/2023",
+        "priority": "High",
+        "status": "Complete",
+        "user": {
+          "first_name": "Ella",
+          "last_name": "Johnson",
+          "email": "ella.johnson@example.com",
+          "cell_phone": "(11) 98765-9876"
+        }
+      },
+      {
+        "title": "Integrate Lombok and H2",
+        "description": "Integrate Lombok for code simplification and H2 for in-memory database",
+        "start_date": "10/12/2023",
+        "deadline_date": "20/12/2023",
+        "priority": "Medium",
+        "status": "In Progress",
+        "user": {
+          "first_name": "David",
+          "last_name": "Garcia",
+          "email": "david.garcia@example.com",
+          "cell_phone": "(11) 98765-6543"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6b47a2c9945b841494d7"},
+    "end_date": "31/01/2024",
+    "name": "Microservices Project 2",
+    "start_date": "01/01/2024",
+    "tasks": [
+      {
+        "title": "Implement microservices security",
+        "description": "Enhance security for microservices",
+        "start_date": "05/01/2024",
+        "deadline_date": "15/01/2024",
+        "priority": "High",
+        "status": "Todo",
+        "user": {
+          "first_name": "Aiden",
+          "last_name": "Martinez",
+          "email": "aiden.martinez@example.com",
+          "cell_phone": "(11) 98765-5432"
+        }
+      },
+      {
+        "title": "Write microservices documentation",
+        "description": "Create documentation for microservices APIs",
+        "start_date": "10/01/2024",
+        "deadline_date": "20/01/2024",
+        "priority": "Medium",
+        "status": "Complete",
+        "user": {
+          "first_name": "Olivia",
+          "last_name": "Robinson",
+          "email": "olivia.robinson@example.com",
+          "cell_phone": "(11) 98765-7654"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6b47a2c9945b841494d8"},
+    "end_date": "28/02/2024",
+    "name": "Java Application Testing",
+    "start_date": "01/02/2024",
+    "tasks": [
+      {
+        "title": "Write unit tests with JUnit",
+        "description": "Create unit tests for Java application components",
+        "start_date": "05/02/2024",
+        "deadline_date": "15/02/2024",
+        "priority": "High",
+        "status": "In Progress",
+        "user": {
+          "first_name": "Lucas",
+          "last_name": "Brown",
+          "email": "lucas.brown@example.com",
+          "cell_phone": "(11) 98765-4321"
+        }
+      },
+      {
+        "title": "Perform integration testing",
+        "description": "Conduct integration testing for the application",
+        "start_date": "10/02/2024",
+        "deadline_date": "20/02/2024",
+        "priority": "Medium",
+        "status": "Todo",
+        "user": {
+          "first_name": "Ava",
+          "last_name": "Davis",
+          "email": "ava.davis@example.com",
+          "cell_phone": "(11) 98765-8765"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "652d6b47a2c9945b841494d9"},
+    "end_date": "31/03/2024",
+    "name": "Microservices Deployment",
+    "start_date": "01/03/2024",
+    "tasks": [
+      {
+        "title": "Prepare for microservices deployment",
+        "description": "Get microservices ready for deployment",
+        "start_date": "05/03/2024",
+        "deadline_date": "15/03/2024",
+        "priority": "High",
+        "status": "Todo",
+        "user": {
+          "first_name": "Mia",
+          "last_name": "White",
+          "email": "mia.white@example.com",
+          "cell_phone": "(11) 98765-9876"
+        }
+      },
+      {
+        "title": "Deploy microservices to AWS",
+        "description": "Deploy microservices to an AWS environment",
+        "start_date": "10/03/2024",
+        "deadline_date": "20/03/2024",
+        "priority": "Medium",
+        "status": "In Progress",
+        "user": {
+          "first_name": "James",
+          "last_name": "Lopez",
+          "email": "james.lopez@example.com",
+          "cell_phone": "(11) 98765-6543"
+        }
+      }
+    ]
+  }
+]

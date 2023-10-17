@@ -1,0 +1,100 @@
+// 1. Listar todas as tarefas de um projeto com status "To Do":
+
+db.project.aggregate([
+    {
+        $unwind: "$tasks"
+    },
+    {
+        $match: {
+            "tasks.status": "Todo"
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            projectName: "$name",
+            taskTitle: "$tasks.title",
+            taskDescription: "$tasks.description"
+        }
+    }
+]);
+
+// 2. Listar todos os projetos que têm tarefas com status "In Progress":
+
+db.project.find({
+    "tasks.status": "In-progress"
+}, {
+    _id: 0,
+    name: 1
+});
+
+// 3. Listar todas as tarefas com prioridade "High" em um projeto específico.
+
+
+db.project.aggregate([
+    {
+        $match: {
+            name: "Front-end Project 2"
+        }
+    },
+    {
+        $unwind: "$tasks"
+    },
+    {
+        $match: {
+            "tasks.priority": "High"
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            projectName: "$name",
+            taskTitle: "$tasks.title",
+            taskDescription: "$tasks.description"
+        }
+    }
+]);
+
+// 4. Listar todos os projetos que possuem tarefas não finalizadas, com status diferente de Complete:
+
+db.project.aggregate([
+    {
+        $unwind: "$tasks"
+    },
+    {
+        $match: {
+            "tasks.status": {
+                $ne: "Complete"
+            }
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            projectName: "$name",
+            taskName: "$tasks.name",
+            taskStatus: "$tasks.status"
+        }
+    }
+]);
+
+// 5. Listar todos os usuários associados às tarefas do projeto AI-Powered Financial Analysis:
+
+db.project.aggregate([
+    {
+        $match: {
+            name: "AI-Powered Financial Analysis"
+        }
+    },
+    {
+        $unwind: "$tasks"
+    },
+    {
+        $project: {
+            _id: 0,
+            projectName: "$name",
+            userName: "$tasks.user.first_name",
+            userLastName: "$tasks.user.last_name"
+        }
+    }
+]);
